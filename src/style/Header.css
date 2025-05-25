@@ -1,0 +1,36 @@
+.header {
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 40px;
+}
+
+.header-info {
+    line-height: 10px;
+}
+
+.header-title {
+    margin: 0;
+    padding: 0;
+    color: #3678B2;
+    text-align: right;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.header-subtitle {
+    margin: 0;
+    padding: 0;
+    color: #000;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

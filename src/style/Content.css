@@ -1,0 +1,181 @@
+.content {
+    width: 100%;
+    min-height: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.content-title {
+    text-align: left;
+    color: #000;
+    font-family: Inter;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.content-subtitle {
+    line-height: 1.5;
+    margin-top: 12px;
+    text-align: left;
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.buttons {
+    display: inline-flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 48px;
+    width: 100%;
+}
+
+.api-button {
+    border-radius: 14px;
+    padding: 10px 30px;
+    color: white;
+    background-color: #3678B2;
+}
+
+.github-button {
+    border-radius: 14px;
+    padding: 10px 40px;
+    color: #C6C6C6;
+    background: #FFF;
+    box-shadow: 0px 4px 17.8px 0px rgba(0, 0, 0, 0.07);
+}
+
+.form {
+    padding: 16px 30px;
+    width: 340px;
+    min-height: 400px;
+    border-radius: 24px;
+    background: #FFF;
+    box-shadow: 0px 4px 48px 10px rgba(0, 0, 0, 0.06);
+}
+
+.form-label {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.upload-section {
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    border-radius: 14px;
+    background: #F5F3F3;
+}
+
+.upload-section h3 {
+    color: #DADADA;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 16px;
+}
+
+.upload-icon {
+    margin-right: 16px;
+}
+
+.analyze-button {
+    color: #FFFFFF;
+    width: 100%;
+    margin-top: 16px;
+    background: #3678B2;
+}
+
+.line {
+    border-radius: 19px;
+    background: #F5F3F3;
+    width: 80%;
+    height: 2px;
+    margin: 24px auto;
+}
+
+.stats-list li {
+    margin-bottom: 16px;
+    display: inline-flex;
+    width: 100%;
+    color: #000;
+    justify-content: space-between;
+}
+
+.stats-list .icon {
+    font-weight: bold;
+    margin-right: 10px;
+    fill: #3678B2;
+}
+/*Colors*/
+.contrast {
+    color: #3678B2 !important;
+}
+
+a {
+    color: inherit; /* Наследует цвет текста от родителя */
+    text-decoration: none; /* Убирает подчеркивание */
+    outline: none; /* Убирает контур при фокусе (можно оставить для accessibility) */
+}
+
+/* Для состояний ссылки */
+a:hover, a:active, a:focus {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* media */
+/* Для мобильных устройств и небольших экранов */
+@media (max-width: 800px) {
+    .content-info {
+        padding: 100px 0; /* 100px сверху и снизу, 0 по бокам */
+
+        /* Дополнительные стили для мобильной версии */
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .form {
+        width: 80%;
+    }
+
+    .header {
+        justify-content: space-around;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .logo {
+        padding: 0px;
+    }
+
+    .header-subtitle {
+        text-align: right;
+    }
+
+    .github-button {
+        line-height: 1;
+        padding: 10px 20px;
+    }
+
+    .api-button {
+        line-height: 1;
+        padding: 10px 20px;
+    }
+}
