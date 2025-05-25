@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/', // ← ВАЖНО! Должен быть именно "/"
+  base: '/hsehelperweb/', // ← ВАЖНО! Должен быть именно "/"
 })
